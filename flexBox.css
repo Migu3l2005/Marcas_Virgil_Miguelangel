@@ -1,0 +1,177 @@
+body{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;    
+    }
+    .seccion_inicio{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0 100px;
+        gap: 90px;
+        color:#6E6E6E;
+        background-color:#D9D9D9;
+        
+    }
+    
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo{
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    }
+    
+    
+    .menu{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    
+    .menu ul{ 
+        display: flex;
+        gap: 30px;
+    }
+    
+    
+    .menu li:hover{
+        color: #00B2E3;
+        font-weight: bold;
+    }
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titulo{
+        display: flex;
+    }
+    
+    .inicio h1{
+        font-weight: bold;
+        font-size: 80px;
+    }
+    .inicio h2{
+        font-size: 30px;
+    }
+    .botones{
+        margin-top: 100px;
+        display: flex;
+        font-size: 20px;
+        color: white;
+        width: 20%;
+        justify-content: space-between;
+    }
+    .dudas,.info{
+        background-color: #00B2E3;
+        border-radius: 10px;
+        width: 150px;
+        height: 60px;
+    }
+    
+    
+    
+    .seccion_principal h1{
+        font-weight: bold;
+        font-size: 80px;
+        text-align: left;
+        color: #6E6E6E;
+        margin-top: 100px;
+        margin-left: 630px;
+    }
+    
+
+    .seccion_principal .cards {
+        margin: 15vh 0;
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(4,200px);
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .seccion_principal .cards div{
+        display: flex;
+        font-weight: 700px;
+        color: white;
+        font-size: 32px;
+        background-size: cover;
+        align-items: end;
+    }
+    
+    .seccion_principal .cards .card1{
+        grid-column: span 2;
+        grid-row: span 2;
+        background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 2.png);
+    }
+    
+    .seccion_principal .cards .card2{
+        grid-row: span 2;
+        background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 3.png);
+    }
+    
+    .seccion_principal .cards .card3{
+        grid-column: span 2;
+        background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 4.png);
+    }
+    
+    .seccion_principal .cards .card4{
+        background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 9.png);
+    }
+    
+    .seccion_principal .cards .card5{
+        background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 7.png);
+    }
+    
+    .seccion_principal .cards .card6{
+        grid-column: span 2;
+        background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 8.png);
+    }
+    
+    .seccion_principal .cards div p{
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        margin: 10px;
+    }
+    
+    .pie{
+        background-color: #D9D9D9;
+        height: 15vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .pie ul {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .pie ul li{
+        list-style: none;
+    }
+    
+    .pie ul li a{
+        display: flex;
+        justify-content: center;
+        font-size:24px;
+        font-weight: 400;
+        color: #6E6E6E;
+        text-decoration: none;
+        line-height: 29.3px;
+    }
+    
+    .pie p{
+        font-size:24px;
+        font-weight: 400;
+        color: #6E6E6E;
+        text-decoration: none;
+        line-height: 29.3px;
+    }
